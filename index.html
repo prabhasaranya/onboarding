@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Cards</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h5 class="text-start mb-3 h4" style="font-weight:600;">Apply a Theme</h5>
+     <div class="row">
+      <div class="col-md-4">
+        <div class="productcard" id="bagsThemeCard">
+          <img src="ASSET/bags.png" class="card-img-top" alt="Bags Theme">
+          <div class="card-body">
+            <h5 class="card-title">Bags Theme <span class="text-muted h6">(recommended)</span></h5>
+            <button class="btn btn-primary apply-btn m-1" onclick="selectTheme('bagsThemeCard', this)">Apply </button>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="productcard" id="flexThemeCard">
+          <img src="ASSET\flex.png" class="card-img-top" alt="Flex Theme">
+          <div class="card-body">
+            <h5 class="card-title">Flex Theme</h5>
+            <button class="btn btn-primary apply-btn m-1" onclick="selectTheme('flexThemeCard', this)">Apply </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="productcard" id="chicThemeCard">
+          <img src="ASSET\chic.png" class="card-img-top" alt="Chic Theme">
+          <div class="card-body">
+            <h5 class="card-title">Chic Theme</h5>
+            <button class="btn btn-primary apply-btn m-1" onclick="selectTheme('chicThemeCard', this)">Apply </button>
+          </div>
+        </div>
+      </div>
+      <div class="text-end mt-4">
+        <button class="btn btn-primary"><a href="product.html">Next</a></button>
+    </div>
+</div>
+<script src="/script.js"></script>
+
+
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
